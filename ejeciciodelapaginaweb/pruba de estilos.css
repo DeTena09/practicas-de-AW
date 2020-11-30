@@ -69,11 +69,11 @@ img {
  * Navegación
  */
 .header {position: fixed;}
-nav {
+nav#menu-grande {
 	float: right;
     ;
 }
-	nav ul {
+	nav#menu-grande ul {
         ;
 		margin: 0;
 		padding: 0;
@@ -81,23 +81,55 @@ nav {
 		padding-right: 60px;
 	}
 	
-		nav ul li {
-            ;
+		nav#menu-grande ul li {
 			display: inline-block;
 			line-height: 112px;
 		}
 			
-			nav ul li a {
+			nav#menu-grande ul li a {
                 ;
 				display: block;
 				padding: 0 10px;
 				text-decoration: none;
 			}
 			
-				nav ul li a:hover {
+				nav#menu-grande ul li a:hover {
                     ;
 					background: #0b76a6;
 				}
+
+nav#menu-movil {
+    display: none;
+}
+
+nav#menu-movil ul{
+    list-style: none;
+}
+
+nav#menu-movil ul li{
+    display: inline-block;
+}
+
+nav#menu-movil ul li a{
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+nav#menu-movil ul li a:hover {
+    background: #0b76a6;
+   
+}
+
+
+@media (max-width: 1200px) {
+    nav#menu-movil {
+        display: block;
+    }
+    nav#menu-grande {
+        display:none;
+    }
+}
+
 #main-content {margin-top: 120px}
 #main-footer {
     bottom: 0px;
