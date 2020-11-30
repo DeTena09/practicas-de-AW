@@ -68,9 +68,11 @@ img {
 /*
  * Navegación
  */
-.header {position: fixed;}
+.header {
+    position: fixed;}
 nav#menu-grande {
-	float: right;
+	
+    float: right;
     ;
 }
 	nav#menu-grande ul {
@@ -137,6 +139,7 @@ nav#menu-movil ul li a:hover {
 	color: white;
 	text-align: center;
 	padding: 20px;
+    padding-bottom: 50px;
 	margin-top: 40px;
 }
 	#main-footer p {
@@ -146,3 +149,5 @@ nav#menu-movil ul li a:hover {
 	#main-footer a {
 		color: white;
 	}
+#pie1 {float: right;}
+#pie2 {float: left;}
