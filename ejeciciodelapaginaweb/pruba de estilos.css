@@ -14,13 +14,28 @@ h1 {
 	margin: 15px 0;
 	text-align: center;
 	font-weight: 300;
-    font:small-caps 500% sans-serif 
+    font:small-caps 500% sans-serif; 
 }
+
+h2 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+    font:small-caps 500% sans-serif; 
+}
+
 
 p {
     float: center;
 	margin: 10 110 10 110px ;
     font:small-caps 150% serif;
+    color: black;
+}
+
+#maind {
+     font:small-caps 150% serif;
     color: black;
 }
 
