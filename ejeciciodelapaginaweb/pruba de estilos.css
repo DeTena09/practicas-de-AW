@@ -14,11 +14,14 @@ h1 {
 	margin: 15px 0;
 	text-align: center;
 	font-weight: 300;
+    font:small-caps 500% sans-serif 
 }
 
 p {
     float: center;
 	margin: 10 110 10 110px ;
+    font:small-caps 150% serif;
+    color: black;
 }
 
 img {
@@ -139,7 +142,7 @@ nav#menu-movil ul li a:hover {
 	color: white;
 	text-align: center;
 	padding: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 	margin-top: 40px;
 }
 	#main-footer p {
@@ -149,5 +152,9 @@ nav#menu-movil ul li a:hover {
 	#main-footer a {
 		color: white;
 	}
-#pie1 {float: right;}
-#pie2 {float: left;}
+#pie1 {float: right;
+color: white;
+}
+#pie2 {float: left;
+color: white;
+}
