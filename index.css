@@ -1,3 +1,8 @@
+
+body{margin-top: 100px;}
+
+
+
 .header {
     position: fixed;}
 nav#menu-grande {
@@ -61,3 +66,43 @@ nav#menu-movil ul li a:hover {
         display:none;
     }
 }
+
+#main-header {
+    top: 0px;
+    width: 100%;
+    position:fixed;
+	background: #333;
+	color: white;
+	height: 92px;
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+    border: #ac2828 5px solid;
+    background:#ac2828 ;
+	float: left;
+	padding: 15px 15 15 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #000000;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
